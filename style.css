@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://pcvector.net/uploads/posts/2018-02/1517572511_bg-svg-gradient-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    padding-top: 25px;
+
+    @media (max-width: 1000px ) {
+        gap: 5px;
+        
+    }
+
+    img{
+        overflow-clip-margin: content-box;
+        width: 63px;
+        height: 50px;
+
+        @media (max-width: 1000px ) {
+            display: none;
+            
+        }
+
+      
+    }
+    a{
+        color: white;
+            text-decoration: none;
+            font-size: 25px;
+
+            @media (max-width: 1000px ) {
+                gap: 5px;
+                
+            }
+    }
+}
+.menu{
+    display: flex;
+    gap: 30px;
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding-bottom: 400px;
+    padding-top: 150px;
+
+    @media (max-width: 1000px ) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        
+    }
+
+    img{
+        
+        height: 370px;
+        width: 421px;
+
+       
+    }
+
+    p{
+        color: white;
+        font-size: 21px;
+        padding-bottom: 40px;
+    }
+}
+.box{
+    h2{
+        color: white;
+        font-size: 70px;
+        padding-bottom: 10px;
+    }
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+
+   
+
+}
+.btn1{
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 12px 32px;
+    background-color: rgb(15, 15, 15);
+    font-size: 16px;
+
+}
+.btn2{
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 12px 32px;
+    background-color: violet;
+    font-size: 16px;
+}
